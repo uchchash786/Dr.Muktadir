@@ -36,8 +36,12 @@ p{
   top:18rem;
 }
 .bottom-cloud{position: absolute;
-bottom:55%;
+bottom:25%;
 }
+@media only screen and (min-width: 600px)
+.bottom-cloud
+{display:hidden;
+  }
 .topcontainer{
 padding-top: 5rem;
   background-color:#f3fe7e;

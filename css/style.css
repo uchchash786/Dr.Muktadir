@@ -38,10 +38,11 @@ p{
 .bottom-cloud{position: absolute;
 bottom:25%;
 }
-@media only screen and (min-width: 600px)
-.bottom-cloud
-{display:hidden;
+@media only screen and (max-width: 600px)
+{.bottom-cloud
+{visibility: hidden;
   }
+}
 .topcontainer{
 padding-top: 5rem;
   background-color:#f3fe7e;
